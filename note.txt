@@ -1,0 +1,19 @@
+Repository (Repo - kho chứa)
+
+- Local Repository: nằm trực tiếp trên máy, sẽ nằm trong folder .git
+- Remote Repository: kho lưu trữ trên 1 máy chru khác (Github, Gitlab)
+
+
+
+
+Commit
+- là 1 bản sao lưu (snapshot) trạng thái của tất cả các file trong dự án tại MỘT THỜI ĐIỂM CỤ THỂ
+
+
+
+Khu vực làm việc (Working Area)
+
+
+- working directory (thư mục làm việc)
+- staging area (khu vực chuẩn bị / index)
+- repository: (.git repository)

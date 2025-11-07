@@ -17,3 +17,16 @@ Khu vực làm việc (Working Area)
 - working directory (thư mục làm việc)
 - staging area (khu vực chuẩn bị / index)
 - repository: (.git repository)
+
+
+Cách commit đúng cách:
+ví dụ:
+
+TỐt
+Fix: Tính đúng logic cho tổng tiền thanh toán
+Feat: thêm chức năng reset password
+
+
+Không tốt
+update files
+fix bugs and add new features

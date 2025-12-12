@@ -30,3 +30,23 @@ Feat: thêm chức năng reset password
 Không tốt
 update files
 fix bugs and add new features
+
+
+Ví dụ chị đang làm tính năng A
+nhưng sếp lại yêu cầu chị qua fix bug của tính năng B
+=> cần dùng đến branch (nhánh)
+
+nhánh gốc là main
+Chị làm tính năng A: chị sẽ tạo 1 nhánh mới từ nhánh main được gọi là nhánh A
+    Sau khi phát triển + test xong tính năng A => sẽ gộp nhánh A vào trong nhánh main
+Chị làm tính năng B: chị cũng sẽ tạo 1 nhánh từ nhánh main được gọi là nhánh B
+    Sau khi phát triển + test xong tính năng B => sẽ gộp nhánh B vào trong nhánh main
+
+
+Lệnh: 
+git branch: kiểm tra xem nhánh hiện tại tên là gì
+git branch ten-nhanh: tạo 1 nhánh mới
+
+// chuyển nhánh
+git switch ten-nhanh: chuyển qua nhánh khác (ưu tiên hơn)
+git checkout ten-nhanh: cũng chuyển qua nhánh mới

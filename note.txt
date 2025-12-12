@@ -14,9 +14,9 @@ Commit
 Khu vực làm việc (Working Area)
 
 
-- working directory (thư mục làm việc)
+- working directory (thư mục làm việc) 
 - staging area (khu vực chuẩn bị / index)
-- repository: (.git repository)
+- repository: (.git repository) 
 
 
 Cách commit đúng cách:

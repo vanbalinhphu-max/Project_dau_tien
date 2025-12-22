@@ -44,9 +44,28 @@ Chị làm tính năng B: chị cũng sẽ tạo 1 nhánh từ nhánh main đư�
 
 
 Lệnh: 
+
+//Lệnh tạo nhánh mới
 git branch: kiểm tra xem nhánh hiện tại tên là gì
+
+//lệnh kiểm tra nhánh
 git branch ten-nhanh: tạo 1 nhánh mới
 
 // chuyển nhánh
 git switch ten-nhanh: chuyển qua nhánh khác (ưu tiên hơn)
 git checkout ten-nhanh: cũng chuyển qua nhánh mới
+
+// kết hợp tạo nhánh + chuyển nhánh 1 lần
+git switch -c ten-nhanh: tạo và chuyển sang nhánh mới (ưu tiên hơn)
+git checkout -b ten-nhanh: tạo và chuyển sang nhánh mới
+
+//Gộp nhánh
+git merge ten-nhanh-can-gop: Gộp nhánh
+  - ví dụ chị đang ở nhánh main và gõ lệnh là:
+      - git merge feature/header => nó sẽ lấy phần sao lưu của nhánh feature/header và đem gộp vào nhánh main
+
+//Xoá nhánh
+git branch -d ten-nhanh: xoá nhánh
+
+lưu ý: option -d chỉ cho phép xoá khi nhánh đó đã được merge vào trong 1 nhánh khác
+      Nếu thực sự không muốn dùng nữa và muốn xoá luôn không quan tâm nó đã được merge hay chưa thì sẽ sử dụng option -D 

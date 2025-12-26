@@ -69,3 +69,7 @@ git branch -d ten-nhanh: xoá nhánh
 
 lưu ý: option -d chỉ cho phép xoá khi nhánh đó đã được merge vào trong 1 nhánh khác
       Nếu thực sự không muốn dùng nữa và muốn xoá luôn không quan tâm nó đã được merge hay chưa thì sẽ sử dụng option -D 
+
+
+
+git revert 
